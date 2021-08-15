@@ -2,11 +2,8 @@
 layout: homepage
 title: 7 Books
 permalink: /test
-twitter:
-  image: https://raw.githubusercontent.com/kevando/gotta-reads/master/assets/meta-image-olive.jpg
+image: https://raw.githubusercontent.com/kevando/gotta-reads/master/assets/meta-image-olive.jpg
 ---
-
-{% seo title=false %}
 
 - the alchemist
 - snow crash
