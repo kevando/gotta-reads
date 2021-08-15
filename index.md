@@ -3,5 +3,11 @@ title: 4 Books
 permalink: /
 ---
 
-
-i am index, hear me roar
+- the alchemist
+- snow crash
+- sapiens
+- a new earth
+- obstacle is the way
+- a new earth
+- how to win friends and influence people
+- siddhartha
