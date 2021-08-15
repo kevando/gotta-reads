@@ -1,7 +1,11 @@
 ---
 layout: homepage
-title: 4 Books
+title: 7 Books You Gotta Read
 permalink: /
+twitter:
+  title
+
+
 ---
 
 - the alchemist
