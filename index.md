@@ -2,10 +2,6 @@
 layout: homepage
 title: 7 Books You Gotta Read
 permalink: /
-twitter:
-  title
-
-
 ---
 
 - the alchemist
