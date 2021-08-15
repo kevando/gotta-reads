@@ -1,5 +1,15 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div id="HomepageLayout">{{ content }}</div>
+  {%- include head.html -%}
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper" id="HomepageLayout">
+        {{ content }}
+      </div>
+    </main>
+
+  </body>
+
+</html>
