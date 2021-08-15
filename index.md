@@ -1,4 +1,5 @@
 ---
+layout: homepage
 title: 4 Books
 permalink: /
 ---
@@ -9,5 +10,4 @@ permalink: /
 - a new earth
 - obstacle is the way
 - a new earth
-- how to win friends and influence people
 - siddhartha
