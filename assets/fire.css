@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+
+body {
+	background: #bbb;
+  overflow: hidden;
+}
+
+li {
+	font-family: monospace;
+	font-size: 1.3rem;
+	line-height: 1.2em;
+}
+
+h1 {
+	color: white;
+	font-weight: bold;
+	line-height: 1.5em;
+	font-family: "Press Start 2P";
+	white-space: nowrap;
+	font-size: 4.4rem;
+	letter-spacing: 0.6em;
+	text-align: center;
+	animation: fire-big 1s ease-in-out infinite alternate, fade-in 12s ease-out;
+	position: absolute;
+	top: 93vh;
+}
+	
+@keyframes fire-big {
+0% {
+  text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85,
+   -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -80px 60px #cd4606,
+   0 -130px 70px #973716, 10px -120px 80px #451b0e22;
+ }
+ 100% {
+  text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #fefcc9,
+   -20px -20px 40px #feec85, 22px -42px 60px #ffae34, -22px -78px 50px #ec760c,
+   0 -102px 80px #cd4606, 10px -110px 80px #973716;
+}
+}
+
+
+@keyframes fade-in {
+	0% {
+		top: 140vh;
+	}
+	100% {
+	top: 93vh;
+	}
+}
+
