@@ -6,3 +6,11 @@ This is an alternative to [goodreads](www.goodreads.com) that contains far fewer
 
 - [github.com/jekyll/minima](https://github.com/jekyll/minima)
 - [github.com/jekyll/jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+
+
+```
+bundle init
+bundle add jekyll
+bundle exec jekyll new --force --skip-bundle .
+ bundle exec jekyll serve  
+```
